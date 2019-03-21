@@ -99,6 +99,34 @@ func containsDuplicate(nums []int) bool {
     return false
 }
 
+// 136.只出现一次的数字
+func singleNumber(nums []int) int {
+    res := 0
+    for _, v := range nums {
+		res ^= v
+	}
+    
+    return res
+}
+
+// 350.两个数组的交集 II
+func intersect(nums1 []int, nums2 []int) []int {
+    tmp := make(map[int]int)
+    for _, num1 := range nums1 {
+		tmp[num1]++
+	}
+
+    res := []int{}
+    for _, num2 := range nums2 {
+        if tmp[num2] > 0 {
+            res = append(res, num2)
+            tmp[num2]--
+        }
+	}
+    
+    return res
+}
+
 // --main--
 
 func main() {
@@ -116,6 +144,11 @@ func main() {
 	// fmt.Println(nums)
 
 	// 217
-	nums := []int{8,7,3,2,1,8}
-	fmt.Println(containsDuplicate(nums))
+	// nums := []int{8,7,3,2,1,8}
+	// fmt.Println(containsDuplicate(nums))
+
+	// 349
+	nums1 := []int{1,2,2,1}
+	nums2 := []int{2,2}
+	fmt.Println(intersect(nums1, nums2))
 }
