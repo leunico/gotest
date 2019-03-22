@@ -1,0 +1,62 @@
+version: "2"
+services:
+  mydb:
+    container_name: "mydb"
+    restart: always
+    ports:
+      - "3306:3306"
+    volumes:
+      # - /demo/mysql:/var/lib/mysql
+      - /etc/localtime:/etc/localtime:ro
+    environment:
+      MYSQL_ROOT_PASSWORD: 123456
+    image: mysql:5.7
+  myredis:
+    container_name: "myredis"
+    restart: always
+    ports:
+      - "6379:6379"
+    volumes:
+      - /demo/redis:/data
+      - /etc/localtime:/etc/localtime:ro
+    image: redis:3.2
+  myphp:
+    container_name: "myphp"
+    restart: always
+    build: ./php
+    ports:
+      - "9000:9000"
+    volumes:
+      - /demo/www:/var/www/html
+      - /demo/php:/usr/local/etc/php
+      - /etc/localtime:/etc/localtime:ro
+    links:
+      - "mydb"
+      - "myredis"
+      - "mygolang"
+    image: php:7.3-fpm
+  mynginx:
+    container_name: "mynginx"
+    restart: always
+    ports:
+      - "80:80"
+    volumes:
+      - /demo/www:/usr/share/nginx/html
+      - /demo/nginx/conf.d:/etc/nginx/conf.d
+      - /demo/logs/nginx.logs:/var/log/nginx
+      - /etc/localtime:/etc/localtime:ro
+    links:
+      - "myphp"
+    image: nginx:latest
+  mygolang:
+    container_name: "mygolang"
+    restart: always
+    build: ./golang
+    ports:
+      - "8088:8088"
+    links:
+      - "mydb"
+      - "myredis"
+    volumes:
+      - /demo/go:/go
+    tty: true

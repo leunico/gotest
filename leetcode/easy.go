@@ -127,6 +127,21 @@ func intersect(nums1 []int, nums2 []int) []int {
     return res
 }
 
+// 283.移动零
+func moveZeroes(nums []int) {
+	dist := 0
+	for _, v := range nums {
+		if v != 0 {
+			nums[dist] = v
+			dist++
+		}
+	}
+
+	for i := dist; i<len(nums); i++ {
+		nums[i] = 0
+	}
+}
+
 // --main--
 
 func main() {
@@ -148,7 +163,12 @@ func main() {
 	// fmt.Println(containsDuplicate(nums))
 
 	// 349
-	nums1 := []int{1,2,2,1}
-	nums2 := []int{2,2}
-	fmt.Println(intersect(nums1, nums2))
+	// nums1 := []int{1,2,2,1}
+	// nums2 := []int{2,2}
+	// fmt.Println(intersect(nums1, nums2))
+
+	// 283
+	nums := []int{0,1,0,3,12}
+	moveZeroes(nums)
+	fmt.Println(nums)
 }
