@@ -1,0 +1,38 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+option java_package = "course";
+option java_outer_classname = "CourseProto";
+
+package course;
+
+// The greeting service definition.
+service CourseService {
+    // 单一请求应答，一对一
+    rpc Get (CourseRequest) returns (CourseResponse);
+
+    // 服务端流式应答，一对多，可用于下载
+    // rpc GetList (CourseRequest) returns (stream CourseResponse);
+
+    // 客户端流式请求，多对一，可用于上传
+    // rpc StreamGet(stream CourseRequest) returns (CourseResponse);
+
+    // 双向流式请求应答，支持HTTP/2.0
+    // rpc LoopGet(stream CourseRequest) returns (stream CourseResponse);
+}
+
+// The request message containing the user's name.
+message CourseResponse {
+    int32 status = 1;
+    map<string, string> values = 3;
+}
+
+// The response message containing the greetings
+message CourseRequest {
+    int32 type = 1;
+    string router = 2;
+    map<string, string> parameters = 3;
+}
+
+// message ParaAny {}
+// note: protoc -I. --go_out=plugins=grpc:. course.proto
