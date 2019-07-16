@@ -1,0 +1,20 @@
+syntax = "proto3";  // 指定proto版本
+
+package grpcexam; // 指定包名
+
+service examToGo {
+    rpc Sget(ExamRequest) returns (ExamReply) {}
+}
+
+// Request 请求结构
+message ExamRequest {
+    int32 type = 1;
+    string router = 2;
+    map<string, string> parameters = 3;
+}
+
+// Reply 响应结构
+message ExamReply {
+    int32 status = 1;
+    map<string, string> values = 3;
+}

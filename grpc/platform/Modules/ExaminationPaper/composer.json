@@ -1,0 +1,25 @@
+{
+    "name": "nwidart/examinationpaper",
+    "description": "",
+    "authors": [
+        {
+            "name": "试卷中心",
+            "email": "lizx@codepku.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\ExaminationPaper\\Providers\\ExaminationPaperServiceProvider"
+            ],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\ExaminationPaper\\": ""
+        }
+    }
+}

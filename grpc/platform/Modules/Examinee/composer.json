@@ -1,0 +1,25 @@
+{
+    "name": "nwidart/examinee",
+    "description": "",
+    "authors": [
+        {
+            "name": "考生中心",
+            "email": "lizx@codepku.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Examinee\\Providers\\ExamineeServiceProvider"
+            ],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Examinee\\": ""
+        }
+    }
+}

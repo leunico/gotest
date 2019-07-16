@@ -1,0 +1,14 @@
+{
+    "name": "Examination",
+    "alias": "examination",
+    "description": "考试中心",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\Examination\\Providers\\ExaminationServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

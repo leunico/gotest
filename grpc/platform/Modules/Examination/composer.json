@@ -1,0 +1,25 @@
+{
+    "name": "nwidart/examination",
+    "description": "",
+    "authors": [
+        {
+            "name": "lizx",
+            "email": "lizx@codepku.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Examination\\Providers\\ExaminationServiceProvider"
+            ],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Examination\\": ""
+        }
+    }
+}

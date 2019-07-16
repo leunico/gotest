@@ -1,0 +1,14 @@
+{
+    "name": "Examinee",
+    "alias": "examinee",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\Examinee\\Providers\\ExamineeServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}
