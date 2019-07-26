@@ -1,0 +1,196 @@
+.art_mobile_market {
+  background-color: #fd9d75;
+  padding-bottom: 20vw;
+}
+
+.art_mobile_market img {
+  width: 97.06667vw;
+  display: block;
+  margin: 0 auto;
+}
+
+.art_mobile_market .art_form {
+  height: 104vw;
+}
+
+.art_mobile_market .art_form .form_bg {
+  width: 94.66667vw;
+  height: 100.53333vw;
+  margin: 0 auto;
+  background: url(../../../img/marketing/201902/art_code_mobile/form_bg.png) no-repeat center top;
+  background-size: 100% auto;
+}
+
+.art_mobile_market .art_form .form_bg h2 {
+  color: #ff9a6d;
+  font-size: 5.6vw;
+  text-align: center;
+  margin: 0;
+  padding: 7vw 0 4vw;
+}
+
+.art_mobile_market .art_form .form_bg h2 span {
+  font-size: 6.4vw;
+  font-weight: bold;
+}
+
+.art_mobile_market .art_form .form_bg .form_item {
+  width: 88vw;
+  margin: 0 auto 2.66667vw;
+  border-radius: 0.8vw;
+  height: 12.4vw;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #ff9a6d;
+}
+
+.art_mobile_market .art_form .form_bg .form_item img {
+  width: 3.6vw;
+}
+
+.art_mobile_market .art_form .form_bg .form_item input {
+  outline: none;
+  border: none;
+  margin-left: 3.2vw;
+  flex: 1;
+  background: none;
+  font-size: 3.73333vw;
+}
+
+.art_mobile_market .art_form .form_bg .form_item .text_select_age {
+  outline: none;
+  border: none;
+  margin-left: 3.2vw;
+  flex: 1;
+  background: none;
+  font-size: 3.73333vw;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
+
+.art_mobile_market .art_form .form_bg .form_item .verify_left {
+  width: 50vw;
+  border-radius: 0.8vw;
+  background-color: #fff;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+}
+
+.art_mobile_market .art_form .form_bg .form_item .verify_left input {
+  outline: none;
+  border: none;
+  background: none;
+  width: 100%;
+  font-size: 3.73333vw;
+}
+
+.art_mobile_market .art_form .form_bg .form_item .phone_btn {
+  height: 10vw;
+  padding: 3.2vw 0;
+  font-size: 3.73333vw;
+  color: #ef7e55;
+  background-color: #ffdf6e;
+  border-radius: 1.6vw;
+  flex: 1;
+  margin-left: 2vw;
+}
+
+.art_mobile_market .art_form .form_bg .row_style {
+  background-color: #fff;
+  padding: 4vw 2.66667vw;
+  box-shadow: 0px 2px 4px 0px rgba(255, 157, 114, 0.61);
+  border: 1px solid #ff9a6d;
+}
+
+.art_mobile_market .art_form .form_bg button {
+  outline: none;
+  border: none;
+  background: none;
+  margin-left: auto;
+  padding: 0;
+}
+
+.art_mobile_market .art_form .form_bg .yellow_btn {
+  width: 88vw;
+  height: 12.66667vw;
+  background-color: #ffe583;
+  border-radius: 0.8vw;
+  font-size: 4.8vw;
+  color: #ef7e55;
+  font-weight: bold;
+  display: block;
+  margin: 0 auto;
+}
+
+.art_mobile_market .mobile_bg04 {
+  width: 97.06667vw;
+  height: 180.93333vw;
+  margin: 0 auto;
+  background: url(../../../img/marketing/201902/art_code_mobile/4.png) no-repeat center top;
+  background-size: 100% auto;
+}
+
+.art_mobile_market .mobile_bg04 img {
+  display: block;
+  width: 91.2vw;
+  margin: 0 auto;
+  padding: 30vw 0 0;
+}
+
+.art_mobile_market .mobile_bg06 {
+  width: 97.06667vw;
+  height: 129.86667vw;
+  margin: 0 auto;
+  background: url(../../../img/marketing/201902/art_code_mobile/6.png) no-repeat center top;
+  background-size: 100% auto;
+}
+
+.art_mobile_market .mobile_bg06 .reap {
+  width: 63vw;
+  margin: 0 auto;
+  padding: 30vw 0 10vw;
+}
+
+.art_mobile_market .mobile_bg06 .reap img {
+  width: 62.4vw;
+}
+
+.art_mobile_market .mobile_bg07 {
+  width: 97.06667vw;
+  height: 117.86667vw;
+  margin: 0 auto;
+  background: url(../../../img/marketing/201902/art_code_mobile/7.png) no-repeat center top;
+  background-size: 100% auto;
+}
+
+.art_mobile_market .mobile_bg07 .work_wiper {
+  width: 75vw;
+  margin: 0 auto;
+  padding: 30vw 0 10vw;
+}
+
+.art_mobile_market .mobile_bg07 .work_wiper img {
+  width: 74.13333vw;
+}
+
+.art_mobile_market .mobile_bg08 {
+  width: 97.06667vw;
+  height: 156.13333vw;
+  margin: 0 auto;
+  background: url(../../../img/marketing/201902/art_code_mobile/8.png) no-repeat center top;
+  background-size: 100% auto;
+}
+
+.art_mobile_market .mobile_bg08 .speak_wiper {
+  width: 66vw;
+  margin: 0 auto;
+  padding: 35vw 0 10vw;
+}
+
+.art_mobile_market .mobile_bg08 .speak_wiper img {
+  width: 65.86667vw;
+}

@@ -1,0 +1,351 @@
+.whole_mian {
+  width: 100%;
+  min-width: 1200px;
+}
+
+.bg_lattice_repeat {
+  background: url(../../../img/marketing/201902/art_code/repeat_bg.png) repeat-y center;
+  background-size: auto 65px;
+}
+
+.banner_1v1 {
+  width: 100%;
+  height: 845px;
+  background: url(../../../img/marketing/201902/art_code/banner.png) no-repeat center top;
+  background-size: auto 100%;
+  padding: 90px 0 0;
+}
+
+.plate_mian {
+  width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.title_bottom {
+  padding-bottom: 50px;
+}
+
+.plate_bg01 {
+  height: 1094px;
+  width: 100%;
+  background: url(../../../img/marketing/201902/art_code/1.png) no-repeat center top;
+  background-size: auto 100%;
+}
+
+.plate_bg02 {
+  height: 1204px;
+  width: 100%;
+  background: url(../../../img/marketing/201902/art_code/2.png) no-repeat center top;
+  background-size: auto 100%;
+}
+
+.plate_bg03 {
+  height: 872px;
+  width: 100%;
+  background: url(../../../img/marketing/201902/art_code/3.png) no-repeat center top;
+  background-size: auto 100%;
+}
+
+.plate_bg04 {
+  height: 475px;
+  width: 100%;
+  background: url(../../../img/marketing/201902/art_code/4.png) no-repeat center top;
+  background-size: auto 396px;
+}
+
+.course_title {
+  background-color: #fa9572;
+  border-radius: 10px;
+  padding: 15px;
+  width: 739px;
+  font-size: 48px;
+  color: #fce8cf;
+  text-align: center;
+  margin: 90px auto 100px;
+}
+
+.small_title03 {
+  width: 207px;
+  border-radius: 14px;
+  background-color: #b06133;
+  padding: 12px 0;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+}
+
+.green_title {
+  font-size: 24px;
+  color: #424242;
+  font-weight: bold;
+  margin: 0 0 10px;
+}
+
+.green_text {
+  font-size: 18px;
+  color: #424242;
+  margin: 0;
+}
+
+.right_form {
+  width: 349px;
+  padding: 30px;
+  border-radius: 10px;
+  background-color: #ffefdd;
+}
+
+.right_form h2 {
+  margin: 0;
+  font-size: 24px;
+  color: #fa9572;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.right_form h2 span {
+  font-size: 30px;
+}
+
+.right_form p {
+  margin: 0 auto;
+  padding: 12px 0 10px;
+  text-align: center;
+  width: 233px;
+  color: #fa9572;
+  position: relative;
+}
+
+.right_form p:before {
+  content: '';
+  display: block;
+  width: 48px;
+  height: 1px;
+  background-color: #fa9572;
+  position: absolute;
+  top: 50%;
+  left: 0;
+}
+
+.right_form p:after {
+  content: '';
+  display: block;
+  width: 48px;
+  height: 1px;
+  background-color: #fa9572;
+  position: absolute;
+  top: 50%;
+  right: 0;
+}
+
+.right_form .form_item {
+  width: 290px;
+  margin: 0 auto 5px;
+  border-radius: 10px;
+  height: 54px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.right_form .form_item input {
+  outline: none;
+  border: none;
+  margin-left: 5px;
+  flex: 1;
+  background: none;
+  font-size: 14px;
+}
+
+.right_form .form_item .text_select_age {
+  outline: none;
+  border: none;
+  margin-left: 5px;
+  flex: 1;
+  background: none;
+  font-size: 14px;
+}
+
+.right_form .form_item .verify_left {
+  width: 175px;
+  height: 54px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-sizing: border-box;
+  padding: 0 18px;
+  display: flex;
+  align-items: center;
+}
+
+.right_form .form_item .verify_left input {
+  outline: none;
+  border: none;
+  background: none;
+  width: 100%;
+  font-size: 14px;
+}
+
+.right_form .form_item .phone_btn {
+  width: 105px;
+  padding: 14px 0;
+  font-size: 16px;
+  color: #fa9572;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.right_form .row_style {
+  background-color: #fff;
+  padding: 14px 18px;
+}
+
+.right_form button {
+  outline: none;
+  border: none;
+  background: none;
+  margin-left: auto;
+  padding: 0;
+}
+
+.banner_form_card {
+  width: 600px;
+  height: 645px;
+  background-color: #fff;
+  border-radius: 10px;
+  border: 1px solid #ff8907;
+  box-sizing: border-box;
+  padding: 60px 30px;
+  margin: 0 auto;
+}
+
+.banner_form_card h2 {
+  margin: 0;
+  font-size: 24px;
+  color: #fa9572;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.banner_form_card h2 span {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.banner_form_card p {
+  width: 458px;
+  font-size: 24px;
+  margin: 0 auto 10px;
+  text-align: center;
+  color: #fa9572;
+  position: relative;
+}
+
+.banner_form_card p:before {
+  content: '';
+  display: block;
+  width: 110px;
+  height: 1px;
+  background-color: #fa9572;
+  position: absolute;
+  top: 50%;
+  left: 0;
+}
+
+.banner_form_card p:after {
+  content: '';
+  display: block;
+  width: 110px;
+  height: 1px;
+  background-color: #fa9572;
+  position: absolute;
+  top: 50%;
+  right: 0;
+}
+
+.banner_form_card .form_item {
+  width: 458px;
+  margin: 0 auto 20px;
+  border-radius: 10px;
+  height: 54px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.banner_form_card .form_item input {
+  outline: none;
+  border: none;
+  margin-left: 5px;
+  flex: 1;
+  background: none;
+  font-size: 22px;
+}
+
+.banner_form_card .form_item .text_select_age {
+  outline: none;
+  border: none;
+  margin-left: 5px;
+  flex: 1;
+  background: none;
+  font-size: 22px;
+}
+
+.banner_form_card .form_item .verify_left {
+  width: 285px;
+  height: 54px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-sizing: border-box;
+  padding: 0 18px;
+  display: flex;
+  align-items: center;
+  border: 1px solid #fa9572;
+}
+
+.banner_form_card .form_item .verify_left input {
+  outline: none;
+  border: none;
+  background: none;
+  width: 100%;
+  font-size: 22px;
+}
+
+.banner_form_card .form_item .phone_btn {
+  padding: 10px 0;
+  font-size: 16px;
+  color: #b06133;
+  background-color: #ffdcc1;
+  border-radius: 10px;
+  font-size: 26px;
+  flex: 1;
+  margin-left: 8px;
+}
+
+.banner_form_card .row_style {
+  background-color: #fff;
+  padding: 14px 18px;
+  border: 1px solid #fa9572;
+}
+
+.banner_form_card button {
+  outline: none;
+  border: none;
+  background: none;
+  margin-left: auto;
+  padding: 0;
+}
+
+.banner_form_card .btn_form_b {
+  width: 458px;
+  display: block;
+  margin: 0 auto;
+  padding: 14px 0;
+  font-size: 30px;
+  color: #b06133;
+  background-color: #ffdcc1;
+  border-radius: 10px;
+  font-weight: bold;
+}

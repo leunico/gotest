@@ -1,0 +1,25 @@
+{
+    "name": "codepku/personal",
+    "description": "",
+    "authors": [
+        {
+            "name": "codepku",
+            "email": "codepku@codepku.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Personal\\Providers\\PersonalServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Personal\\": ""
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "name": "codepku/operate",
+    "description": "",
+    "authors": [
+        {
+            "name": "codepku",
+            "email": "codepku@codepku.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Operate\\Providers\\OperateServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Operate\\": ""
+        }
+    }
+}

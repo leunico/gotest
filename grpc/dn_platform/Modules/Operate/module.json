@@ -1,0 +1,14 @@
+{
+    "name": "Operate",
+    "alias": "operate",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\Operate\\Providers\\OperateServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

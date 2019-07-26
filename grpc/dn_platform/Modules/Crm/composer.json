@@ -1,0 +1,25 @@
+{
+    "name": "codepku/crm",
+    "description": "",
+    "authors": [
+        {
+            "name": "codepku",
+            "email": "codepku@codepku.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Crm\\Providers\\CrmServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Crm\\": ""
+        }
+    }
+}

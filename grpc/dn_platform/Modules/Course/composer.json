@@ -1,0 +1,25 @@
+{
+    "name": "codepku/course",
+    "description": "",
+    "authors": [
+        {
+            "name": "codepku",
+            "email": "codepku@codepku.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Course\\Providers\\CourseServiceProvider"
+            ],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Course\\": ""
+        }
+    }
+}

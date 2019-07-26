@@ -1,0 +1,242 @@
+@charset "UTF-8";
+.deam_seo_pc {
+  width: 100%;
+  min-width: 1200px;
+  background: url(../img/news/information_default.jpg) no-repeat center top;
+  background-size: auto 350px;
+  background-color: #f6f6f6;
+  padding-bottom: 98px;
+}
+
+.deam_seo_pc .seo_container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.deam_seo_pc .seo_container h1 {
+  margin: 0;
+  padding: 105px 0 95px;
+  font-size: 40px;
+  font-family: "微软雅黑";
+}
+
+.deam_seo_pc .seo_container h1 span {
+  display: inline-block;
+  margin-right: 30px;
+}
+
+.deam_seo_pc .seo_container p {
+  margin: 0;
+  padding: 0 0 20px;
+  color: #FFF;
+  font-family: "微软雅黑";
+}
+.deam_seo_pc .seo_container p img {
+    max-width: 100%;
+}
+
+.deam_seo_pc .seo_container .information_container {
+  background-color: #fff;
+  padding: 10px 60px 45px;
+  box-sizing: border-box;
+}
+
+.deam_seo_pc .seo_container .information_container h2 {
+  font-size: 18px;
+  color: #333;
+  font-family: "微软雅黑";
+  margin: 0;
+  border-bottom: 1px solid #e8e8e8;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.deam_seo_pc .seo_container .information_container h2 span {
+  padding: 20px 0;
+  border-bottom: 2px solid #2284f1;
+}
+
+.deam_seo_pc .seo_container .information_container .information_list .information_item {
+  padding: 22px 0;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.deam_seo_pc .seo_container .information_container .information_list .information_item .img_box {
+  width: 150px;
+  height: 120px;
+  position: relative;
+  overflow: hidden;
+}
+
+.deam_seo_pc .seo_container .information_container .information_list .information_item .img_box img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.deam_seo_pc .seo_container .information_container .information_list .information_item .right_information_box {
+  margin-left: 30px;
+  flex: 1;
+}
+
+.deam_seo_pc .seo_container .information_container .information_list .information_item .right_information_box h3 {
+  margin: 0;
+  font-size: 16px;
+  color: #333;
+  padding: 5px 0;
+  font-family: "微软雅黑";
+}
+
+.deam_seo_pc .seo_container .information_container .information_list .information_item .right_information_box h3 span {
+  font-size: 14px;
+  color: #999;
+  float: right;
+}
+
+.deam_seo_pc .seo_container .information_container .information_list .information_item .right_information_box p {
+  font-size: 14px;
+  color: #999;
+  font-family: "微软雅黑";
+  margin: 0;
+  padding-top: 20px;
+}
+
+.deam_seo_pc .seo_container .information_container .information_list .information_item .right_information_box p a {
+  color: #2284F1;
+  font-size: 14px;
+  font-family: "微软雅黑";
+  text-decoration: none;
+}
+
+.deam_seo_pc .seo_container .paginator_platerow {
+  width: 100%;
+  overflow: hidden;
+}
+
+.deam_seo_pc .seo_container .paginator_platerow .pagination {
+  color: #969696;
+  margin: 40px 0 0;
+}
+
+.deam_seo_pc .seo_container .paginator_platerow .pagination li a {
+  background-color: #fff;
+  border-radius: 4px;
+  margin-right: 8px;
+  text-align: center;
+  font-size: 12px;
+  box-shadow: none;
+  color: #333333;
+  font-weight: bold;
+  border: 1px solid #c8c8c8;
+}
+
+.deam_seo_pc .seo_container .paginator_platerow .pagination li a:hover {
+  color: #3f66f6;
+}
+
+.deam_seo_pc .seo_container .paginator_platerow .pagination li span {
+  border-radius: 4px;
+  margin-right: 8px;
+  text-align: center;
+  font-size: 12px;
+  box-shadow: none;
+  color: #3f66f6;
+  font-weight: bold;
+  background: none;
+}
+
+.deam_seo_pc .seo_container .paginator_platerow .pagination li span.goto_page {
+  border: none;
+  padding: 0 12px;
+  line-height: 28px;
+  color: #969696;
+}
+
+.deam_seo_pc .seo_container .paginator_platerow .pagination li span.goto_page input {
+  outline: none;
+  border: 1px solid #c8c8c8;
+  background: none;
+  box-shadow: none;
+  display: inline-block;
+  width: 40px;
+  height: 28px;
+  margin: 0 5px;
+  border-radius: 4px;
+  padding: 2px;
+}
+
+.deam_seo_pc .seo_container .paginator_platerow .pagination li.active {
+  border: none;
+}
+
+.deam_seo_pc .seo_container .paginator_platerow .pagination li.active span, .deam_seo_pc .seo_container .paginator_platerow .pagination li.active a {
+  background-color: #4381e6;
+  color: #fff;
+  border: none;
+}
+
+.deam_seo_pc .seo_container .information_detail_container {
+  padding: 20px 110px 90px;
+  background-color: #fff;
+}
+
+.deam_seo_pc .seo_container .information_detail_container .information_title {
+  overflow: hidden;
+  text-align: center;
+  /*margin-bottom: 80px;*/
+}
+
+.deam_seo_pc .seo_container .information_detail_container .information_title h3 {
+  color: #333;
+  font-size: 24px;
+  font-family: "微软雅黑";
+  text-align: center;
+  margin: 0;
+  padding: 40px 0;
+}
+
+.deam_seo_pc .seo_container .information_detail_container .information_title span {
+  font-size: 14px;
+  color: #999;
+  font-family: "微软雅黑";
+}
+
+.deam_seo_pc .seo_container .information_detail_container .word_conter {
+  overflow: hidden;
+}
+
+.deam_seo_pc .seo_container .information_detail_container .word_conter p {
+  font-size: 16px;
+  color: #666;
+  font-family: "微软雅黑";
+  /*margin-bottom: 36px;*/
+  padding: 0;
+}
+
+.deam_seo_pc .seo_container .information_detail_container .word_conter p:last-child {
+  margin: 0;
+}
+
+.deam_seo_pc .seo_container .information_detail_container .information_switch {
+  margin-top: 90px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.deam_seo_pc .seo_container .information_detail_container .information_switch a {
+  color: #2284F1;
+  font-size: 14px;
+  font-family: "微软雅黑";
+  text-decoration: none;
+}
+
+.deam_seo_pc .seo_container .information_container .information_list .information_item .right_information_box h3 a {
+  color: #000000;
+  font-size: 16px;
+  font-family: "微软雅黑";
+  text-decoration: none;
+}
+

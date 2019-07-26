@@ -1,0 +1,21 @@
+/node_modules
+/public/hot
+/public/storage
+/storage/*.key
+/vendor
+/.idea
+/.vscode
+/nbproject
+/.vagrant
+_ide_helper.php
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+.env
+.phpunit.result.cache
+/_ide_helper.php
+app/Sql.php
+app/Console/Commands/SendSqls.php
+database/migrations/2018_12_01_142327_create_sqls_table.php
+# public/adminer.php

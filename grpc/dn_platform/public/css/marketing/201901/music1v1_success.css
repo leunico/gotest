@@ -1,0 +1,64 @@
+body{
+    padding:0;
+    margin: 0;
+    color: #333;
+}
+p{
+    margin: 0;
+}
+.apply_success{
+    width: 100%;
+    height: 100vh;
+    background: url(../../../img/marketing/201901/m1v1/success_bg.png) no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    text-align: center;
+}
+.apply_success .wrap {
+    width: 91.73vw;
+    height: 137.73vw;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right:0;
+    margin: auto;
+    transform: translateY(-50%);
+    background: url(../../../img/marketing/201901/m1v1/success_header.png) no-repeat;
+    background-size: 100% 100%;
+}
+.apply_success .content{
+    margin-top: 62.466vw;
+}
+.apply_success .color-primary{
+    color: #ff7c1c;
+}
+.apply_success .color-bottom{
+    color:#ff8125;
+}
+.apply_success .font-bold{
+    font-weight: bold;
+}
+.img_wrap{
+    width: 28.66vw;
+    height: 28.66vw;
+    margin: 5vw auto;
+    background: url(../../../img/marketing/201901/m1v1/success_border.png) no-repeat;
+    background-size: 100% 100%;
+}
+.img_wrap img{
+    margin-top: 2.5%;
+    width: 95%;
+    height: 95%;
+}
+.font-30{
+    font-size: 4vw;
+}
+.font-36{
+    font-size: 4.8vw;
+}
+.font-48{
+    font-size: 6.4vw;
+}
+.font-48{
+    font-size: 6.4vw;
+}

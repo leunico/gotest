@@ -1,0 +1,25 @@
+{
+    "name": "codepku/educational",
+    "description": "",
+    "authors": [
+        {
+            "name": "lizx",
+            "email": "lizx@codepku.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Educational\\Providers\\EducationalServiceProvider"
+            ],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Educational\\": ""
+        }
+    }
+}
